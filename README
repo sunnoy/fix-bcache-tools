@@ -35,4 +35,7 @@ which are the devices created by the bcache kernel module.
 Initramfs support
 Currently initramfs-tools, mkinitcpio and dracut are supported.
 
+yum groupinstall "Development Tools" -y
+yum install libblkid-devel -y
 
+make & make install
